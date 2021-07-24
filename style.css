@@ -537,6 +537,11 @@ footer{
         left: 50%;
         transform: translate(-50%,-50%);
     }
+    .model-bg{
+        right: center;
+        width:40%;
+        height: 300px;
+    }
     #skills{
         width:100%;
         justify-content: space-between;
@@ -594,7 +599,8 @@ footer{
 }
 @media(max-width:530px){
     .skill-img{
-        display: none;
+        width: auto;
+        height: auto;
     }
     .skills-text-section{
         width:85%;
