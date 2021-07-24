@@ -423,7 +423,9 @@ footer{
     }
 @media(max-width:1200px){
     .model-bg{
-        display: none;
+        right: center;
+        width:40%;
+        height: 300px;;
     }
     .model{
         width:400px;
